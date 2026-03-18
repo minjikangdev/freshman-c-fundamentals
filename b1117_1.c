@@ -2,11 +2,11 @@
 
 int main(void) {
 	int num;
-	printf("Á¤¼ö ÀÔ·Â: ");
+	printf("ì •ìˆ˜ ìž…ë ¥: ");
 	scanf_s("%d", &num);
 	if(num >= 0)
-		printf("%d: ¾ç¼ö", num);
+		printf("%d: ì–‘ìˆ˜", num);
 	if(num < 0)
-		printf("%d: À½¼ö", num);
+		printf("%d: ìŒìˆ˜", num);
 	return 0;
 }
